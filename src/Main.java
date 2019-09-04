@@ -8,9 +8,9 @@ public class Main {
         obj.setBounds(10, 10, 600, 700);
         obj.setTitle("Breakout Ball");
         obj.setResizable(false);
-        obj.setVisible(true);
         obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         obj.add(gamePlay);
+        obj.setVisible(true);
 
 
     }
