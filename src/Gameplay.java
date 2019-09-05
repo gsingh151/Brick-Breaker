@@ -22,6 +22,9 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     private int ballXdir = -1;
     private int ballYdir = -2;
 
+    private MapGenerator map;
+
+
     public Gameplay() {
         addKeyListener(this);
         setFocusable(true);
