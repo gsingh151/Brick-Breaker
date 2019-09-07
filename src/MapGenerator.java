@@ -24,10 +24,12 @@ public class MapGenerator {
                 if (map[i][j] > 0) {
                     g.setColor(Color.white);
                     g.fillRect(j * brickWidth + 80, i * brickHeight + 50, brickWidth, brickHeight);
+
+                    g.setStroke(new BasicStroke(3));
+                    g.setColor(Color.black);
+                    g.drawRect(j * brickWidth + 80, i * brickHeight + 50, brickWidth, brickHeight);
                 }
             }
-
-
         }
     }
 
